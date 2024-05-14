@@ -7,7 +7,7 @@ const port = 3000; // Choose any port you prefer
 
 // Define a route that returns "true"
 app.get('/api', (req, res) => {
-  res.send('true');
+  res.send('false');
 });
 
 // Start the server
